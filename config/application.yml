@@ -2,7 +2,7 @@ logging:
   level:
     com.netflix: WARN
     org.springframework.web: WARN
-    lv.microservices.sample.otimagrowth: DEBUG
+#    lv.microservices.sample.otimagrowth: DEBUG
  
 eureka:
   instance:
