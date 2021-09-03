@@ -14,12 +14,3 @@ spring:
           - Path=/organization/**
         filters:
           - RewritePath=/organization/(?<path>.*), /$\{path}
-
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    service-url:
-      defaultZone: http://localhost:8082/eureka/
