@@ -18,3 +18,7 @@ management:
     web:
       exposure:
         include: '*'
+
+ribbon:
+  eureka:
+    enabled: true
